@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuth } from '@/app/context/AuthContext';
-import { useGasto } from '@/app/context/GastoContext';
-import { usePresupuesto } from '@/app/context/PresupuestoContext';
+import { useAuth } from '../context/AuthContext';
+import { useGasto } from '../context/GastoContext';
+import { usePresupuesto } from '../context/PresupuestoContext';
 
 const ErrorMessage = ({ message, onClose }) => (
     <div className="fixed top-5 left-1/2 -translate-x-1/2 bg-red-600 text-white p-4 rounded-lg shadow-lg flex items-center gap-4 z-50 animate-fade-in-down">
