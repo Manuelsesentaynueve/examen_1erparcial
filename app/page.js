@@ -6,7 +6,7 @@ const RedirectToLogin = () => {
     const router = useRouter();
 
     useEffect(() => {
-        router.push('/(auth)');
+        router.push('/auth');
     }, [router]);
 
     return (
